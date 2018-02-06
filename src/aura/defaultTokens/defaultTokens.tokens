@@ -1,0 +1,4 @@
+<aura:tokens extends="force:base">
+    <aura:token name="CardBackgroundColor" value="" />
+    <aura:token name="LoginBackgroundColor" value="" />
+</aura:tokens>

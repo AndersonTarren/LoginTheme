@@ -1,0 +1,3 @@
+<design:component label="Login Theme">
+    <design:attribute name="backgroundUrl" label="Background Image Url" />
+</design:component>

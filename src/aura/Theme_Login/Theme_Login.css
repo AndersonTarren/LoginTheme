@@ -1,0 +1,55 @@
+/**
+ * CSS Copied from default communities login page.
+ */
+.THIS.theme-login{
+    background-size: cover;
+    min-height: 100%;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    font-family: t(fontFamily);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: token(LoginBackgroundColor);
+}
+.THIS.theme-login .ui-widget{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.THIS.theme-login .theme-content{
+    text-align: left;
+    min-width: 280px;
+    max-width: 390px;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: inline-block;
+    position: relative;
+    font-family: Lato;
+    font-size: 14px;
+    color: t(colorTextDefault);
+    text-decoration: none;
+    vertical-align: middle;
+    z-index: 0;
+}
+.THIS.theme-login .theme-content .communityLogo{
+    max-width: 100%;
+    width: 50%;
+}
+.THIS.theme-login .theme-content:before{
+    content: '';
+    position: absolute;
+    top: -65px;
+    bottom: -70px;
+    left: -20px;
+    right: -20px;
+    padding: 20px;
+    z-index: -1;
+    background-color: token(CardBackgroundColor);
+    border-radius: 4px;
+}

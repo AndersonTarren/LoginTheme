@@ -1,0 +1,14 @@
+<aura:component description="Theme_Login" access="global" implements="forceCommunity:themeLayout">
+    <aura:attribute name="backgroundUrl" type="String" />
+
+    <style>
+        .theme-login{
+            background : url({!v.backgroundUrl});
+        }
+    </style>
+    <div class="theme-login">
+        <div class="theme-content">
+                {!v.body}
+        </div>
+    </div>
+</aura:component>
